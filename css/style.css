@@ -848,6 +848,99 @@ h6 {
   font-size: 24px;
 }
 
+/* For NGOs Section
+--------------------------------*/
+
+#for-ngos {
+  padding: 60px 0;
+  background: #004a99;
+}
+
+#for-ngos .section-header h3,
+#for-ngos .section-header h4,
+#for-ngos .section-header h6,
+#for-ngos .section-header p {
+  color: #fff;
+}
+
+#for-ngos .card {
+  background: #00458f;
+  border-color: #00458f;
+  border-radius: 10px;
+  margin: 0 15px;
+  padding: 15px 0;
+  text-align: center;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+  height: 100%;
+}
+
+#for-ngos .card:hover {
+  background: #003b7a;
+  border-color: #003b7a;
+}
+
+#for-ngos .card i {
+  font-size: 48px;
+  padding-top: 15px;
+  color: #bfddfe;
+}
+
+#for-ngos .card .img {
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  position: relative;
+  align-self: center;
+  transition: 0.5s;
+}
+
+#for-ngos .card h5 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#for-ngos .card p {
+  font-size: 15px;
+  color: #d8eafe;
+}
+
+#for-ngos .card .readmore {
+  color: #fff;
+  font-weight: 600;
+  display: inline-block;
+  transition: 0.3s ease-in-out;
+  border-bottom: #00458f solid 2px;
+}
+
+#for-ngos .card .readmore:hover {
+  border-bottom: #fff solid 2px;
+}
+
+#for-ngos .counters {
+  padding-top: 40px;
+}
+
+#for-ngos .counters span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  display: block;
+  color: #fff;
+}
+
+#for-ngos .counters p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #cce5ff;
+}
+
+#for-ngos ul {
+  color: #fff;
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/

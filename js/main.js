@@ -42,7 +42,7 @@
   }
 
   // Smooth scroll for the navigation and links with .scrollto classes
-  $(".main-nav a, .mobile-nav a, .scrollto").on("click", function() {
+  $(".main-nav a, .mobile-nav a, .scrollto, #footer a").on("click", function() {
     if (
       location.pathname.replace(/^\//, "") ==
         this.pathname.replace(/^\//, "") &&
