@@ -848,6 +848,63 @@ h6 {
   font-size: 24px;
 }
 
+#for-students .card-image {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#for-students .card-title {
+  font-weight: 700;
+}
+
+#for-students .btn-eoi,
+#for-students .btn-apply {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 0 5px 5px -100px;
+  text-align: center;
+  position: absolute;
+  width: 200px;
+  bottom: 0;
+  left: 50%;
+}
+
+#for-students .btn-eoi {
+  border: 2px solid #007bff;
+  background: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+
+#for-students .btn-eoi:hover {
+  background: #fff;
+  color: #007bff;
+}
+
+#for-students .btn-apply {
+  border: 2px solid #c85250;
+  background: #c85250;
+  border-color: #c85250;
+  color: #fff;
+}
+
+#for-students .btn-apply:hover {
+  background: #fff;
+  color: #c85250;
+}
+
+#for-students #how-to-apply {
+  margin-bottom: 60px;
+}
+
 /* For NGOs Section
 --------------------------------*/
 
