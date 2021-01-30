@@ -935,6 +935,17 @@ h6 {
   color: #283d50;
 }
 
+#for-students .for-students-container .application {
+  color: #c85250;
+}
+
+#for-students .for-students-container .application:hover {
+  color: #c85250;
+  text-decoration: none;
+  border-bottom: #c85250 solid 2px;
+  transition: 0.1s ease-in-out;
+}
+
 #for-students .for-students-container .icon-box .description {
   margin-left: 80px;
   line-height: 24px;
