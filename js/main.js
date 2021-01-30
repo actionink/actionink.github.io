@@ -42,48 +42,51 @@
   }
 
   // Smooth scroll for the navigation and links with .scrollto classes
-  $(".main-nav a, .mobile-nav a, .scrollto, #footer a").on("click", function() {
-    if (
-      location.pathname.replace(/^\//, "") ==
-        this.pathname.replace(/^\//, "") &&
-      location.hostname == this.hostname
-    ) {
-      var target = $(this.hash);
-      if (target.length) {
-        var top_space = 0;
+  $(".main-nav a, .mobile-nav a, .scrollto, #footer a, .btn-apply").on(
+    "click",
+    function() {
+      if (
+        location.pathname.replace(/^\//, "") ==
+          this.pathname.replace(/^\//, "") &&
+        location.hostname == this.hostname
+      ) {
+        var target = $(this.hash);
+        if (target.length) {
+          var top_space = 0;
 
-        if ($("#header").length) {
-          top_space = $("#header").outerHeight();
+          if ($("#header").length) {
+            top_space = $("#header").outerHeight();
 
-          if (!$("#header").hasClass("header-scrolled")) {
-            top_space = top_space - 20;
+            if (!$("#header").hasClass("header-scrolled")) {
+              top_space = top_space - 20;
+            }
           }
-        }
 
-        $("html, body").animate(
-          {
-            scrollTop: target.offset().top - top_space,
-          },
-          1500,
-          "easeInOutExpo"
-        );
+          $("html, body").animate(
+            {
+              scrollTop: target.offset().top - top_space,
+            },
+            1500,
+            "easeInOutExpo"
+          );
 
-        if ($(this).parents(".main-nav, .mobile-nav").length) {
-          $(".main-nav .active, .mobile-nav .active").removeClass("active");
-          $(this)
-            .closest("li")
-            .addClass("active");
-        }
+          if ($(this).parents(".main-nav, .mobile-nav").length) {
+            $(".main-nav .active, .mobile-nav .active").removeClass("active");
+            $(this)
+              .closest("li")
+              .addClass("active");
+          }
 
-        if ($("body").hasClass("mobile-nav-active")) {
-          $("body").removeClass("mobile-nav-active");
-          $(".mobile-nav-toggle i").toggleClass("fa-times fa-bars");
-          $(".mobile-nav-overly").fadeOut();
+          if ($("body").hasClass("mobile-nav-active")) {
+            $("body").removeClass("mobile-nav-active");
+            $(".mobile-nav-toggle i").toggleClass("fa-times fa-bars");
+            $(".mobile-nav-overly").fadeOut();
+          }
+          return false;
         }
-        return false;
       }
     }
-  });
+  );
 
   // Navigation active state on scroll
   var nav_sections = $("section");
