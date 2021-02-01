@@ -1,10 +1,3 @@
-/*
-  Theme Name: NewBiz
-  Theme URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -673,6 +666,16 @@ h6 {
   margin-bottom: 30px;
 }
 
+#how-we-work .burst-img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  #how-we-work .burst-img {
+    width: 80%;
+  }
+}
+
 /* Oversight Section
 --------------------------------*/
 
@@ -972,6 +975,10 @@ h6 {
   font-weight: 700;
 }
 
+#for-students .card-description {
+  margin-bottom: 50px;
+}
+
 #for-students .btn-eoi,
 #for-students .btn-apply {
   font-family: "Montserrat", sans-serif;
@@ -982,7 +989,7 @@ h6 {
   padding: 10px 16px;
   border-radius: 50px;
   transition: 0.5s;
-  margin: 0 5px -10px -100px;
+  margin: 0 5px 5px -100px;
   text-align: center;
   position: absolute;
   width: 200px;
@@ -1016,6 +1023,17 @@ h6 {
 
 #for-students #how-to-apply {
   margin-bottom: 60px;
+}
+
+#for-students .timeline-img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  #for-students .timeline-img {
+    width: 90%;
+  }
 }
 
 /* For NGOs Section
@@ -1343,21 +1361,6 @@ h6 {
 
   .section-header p {
     width: 100%;
-  }
-
-  #testimonials .testimonial-item {
-    text-align: center;
-  }
-
-  #testimonials .testimonial-item .testimonial-img {
-    float: none;
-    margin: auto;
-  }
-
-  #testimonials .testimonial-item h3,
-  #testimonials .testimonial-item h4,
-  #testimonials .testimonial-item p {
-    margin-left: 0;
   }
 }
 
