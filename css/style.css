@@ -982,7 +982,7 @@ h6 {
   padding: 10px 16px;
   border-radius: 50px;
   transition: 0.5s;
-  margin: 0 5px 5px -100px;
+  margin: 0 5px -10px -100px;
   text-align: center;
   position: absolute;
   width: 200px;
@@ -1109,6 +1109,18 @@ h6 {
 
 #for-ngos ul {
   color: #fff;
+}
+
+#for-ngos .link {
+  color: #fff;
+  font-weight: 700;
+  display: inline-block;
+  transition: 0.3s ease-in-out;
+  border-bottom: #00458f solid 2px;
+}
+
+#for-ngos .link:hover {
+  border-bottom: #fff solid 2px;
 }
 
 /*--------------------------------------------------------------
